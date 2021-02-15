@@ -1,0 +1,13 @@
+.scroll-container {
+  display: flex;
+  overflow-y: auto;
+
+  max-height: 200px;
+}
+
+.outerdiv {
+  display: flex;
+}
+.scroll-container li {
+  height: 50px;
+}

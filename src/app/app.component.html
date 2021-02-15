@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+
+
+<div class="overflow-y-auto max-h-96">
+	<ul>
+		<li #listItems *ngFor="let item of (source$ | async)">
+			{{item}}
+		</li>
+	</ul>
+
+</div>
+<div class="overflow-y-auto max-h-96">
+	<div *uiScroll="let x of ds">
+		<b>{{x.text}}</b>
+	</div>
+
+</div>
